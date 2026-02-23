@@ -553,9 +553,9 @@ const InternalConfig = function (initConfig) { // eslint-disable-line no-unused-
 				if (!path.startsWith('godot.')) {
 					return path;
 				} else if (path.endsWith('.audio.worklet.js')) {
-					return `https://cdn.jsdelivr.net/gh/greeniYT/smbrtesting@main/SMB1R.audio.worklet`;
+					return 'https://cdn.jsdelivr.net/gh/greeniYT/smbrtesting@main/SMB1R.audio.worklet.js';
 				} else if (path.endsWith('.audio.position.worklet.js')) {
-					return `https://cdn.jsdelivr.net/gh/greeniYT/smbrtesting@main/SMB1R.audio.position.worklet.js`;
+					return 'https://cdn.jsdelivr.net/gh/greeniYT/smbrtesting@main/SMB1R.audio.position.worklet.js';
 				} else if (path.endsWith('.js')) {
 					return `${loadPath}.js`;
 				} else if (path in gdext) {
